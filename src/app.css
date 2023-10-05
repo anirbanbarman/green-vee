@@ -2,3 +2,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Noto Sans NKo Unjoined', sans-serif;
+}
+.main-nav li a, .group-btn{
+    color: #548235;
+}
+.ban-txt h1 span{
+    color: #548235;
+}
+
+@media only screen and (max-width:767px){
+    .sidebar-menu{
+        display: none;
+    }
+}
